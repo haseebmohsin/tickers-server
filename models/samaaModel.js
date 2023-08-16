@@ -6,6 +6,7 @@ const samaaSchema = new mongoose.Schema({
   tickerImage: Buffer,
   uploadDate: Date,
   uploadTime: String,
+  ocrText: String,
 });
 
 const Samaa = mongoose.model('SamaaTicker', samaaSchema);

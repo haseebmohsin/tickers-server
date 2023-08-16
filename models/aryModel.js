@@ -6,6 +6,7 @@ const arySchema = new mongoose.Schema({
   tickerImage: Buffer,
   uploadDate: Date,
   uploadTime: String,
+  ocrText: String,
 });
 
 const Ary = mongoose.model('AryTicker', arySchema);

@@ -6,6 +6,7 @@ const humSchema = new mongoose.Schema({
   tickerImage: Buffer,
   uploadDate: Date,
   uploadTime: String,
+  ocrText: String,
 });
 
 const Hum = mongoose.model('HumTicker', humSchema);

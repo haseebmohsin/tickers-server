@@ -6,6 +6,7 @@ const expressSchema = new mongoose.Schema({
   tickerImage: Buffer,
   uploadDate: Date,
   uploadTime: String,
+  ocrText: String,
 });
 
 const Express = mongoose.model('ExpressTicker', expressSchema);

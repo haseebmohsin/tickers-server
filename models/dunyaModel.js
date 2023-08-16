@@ -6,6 +6,7 @@ const dunyaSchema = new mongoose.Schema({
   tickerImage: Buffer,
   uploadDate: Date,
   uploadTime: String,
+  ocrText: String,
 });
 
 const Dunya = mongoose.model('DunyaTicker', dunyaSchema);

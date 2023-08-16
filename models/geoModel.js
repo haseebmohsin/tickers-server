@@ -6,6 +6,7 @@ const geoSchema = new mongoose.Schema({
   tickerImage: Buffer,
   uploadDate: Date,
   uploadTime: String,
+  ocrText: String,
 });
 
 const Geo = mongoose.model('GeoTicker', geoSchema);

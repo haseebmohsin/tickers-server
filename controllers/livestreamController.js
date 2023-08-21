@@ -93,7 +93,7 @@ const getLiveTickers = asyncHandler(async (req, res) => {
     return item.toObject();
   });
 
-  res.status(200).json({ message: 'Live Tickers fetched and interleaved', tickersData });
+  res.status(200).json(tickersData);
 });
 
 module.exports = {

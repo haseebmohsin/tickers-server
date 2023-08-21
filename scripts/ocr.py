@@ -1,5 +1,5 @@
 import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "gvision_api_cred.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "tickers_cred.json"
 
 from google.cloud import vision
 import io

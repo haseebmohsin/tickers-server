@@ -20,7 +20,7 @@ app.use('/api', apiRoutes);
 app.use(errorHandler);
 
 // Start the server
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 1000;
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
